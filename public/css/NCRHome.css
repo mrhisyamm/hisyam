@@ -1,0 +1,262 @@
+.div-brand {
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.btn-seemore {
+	background-color: orange;
+	border: orange;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.flashsale{
+	background-color:red;
+	padding:15px;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+}
+.btn-seemore:hover {
+	background-color: darkorange;
+}
+
+.divBanner {
+	padding-top: 1em;
+}
+
+#shopByBrandTitle {
+	color: gray;
+	font-size: 2em;
+	padding: .5em;
+}
+
+#smallBanner {
+	height: 920px
+}
+
+#smallBanner .divBanner {
+	width: 25px;
+	margin-right: 5px;
+
+	cursor: pointer;
+	float: left
+}
+
+#smallBanner img {
+	width: 200px;
+}
+
+#smallBanner img:hover {
+	opacity: .8
+}
+
+.tagSmallBanner {
+	width: 100%;
+	padding: 0px !important;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 25px
+}
+
+.storageContentHome {
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap
+}
+
+.brands img{
+	width: 100%;
+}
+
+.slider {
+	width: 100%;
+	height: 360px;
+	margin: auto;
+}
+
+.slick-slide {
+	margin: 0px 20px;
+}
+
+.slick-slide img {
+
+	width: 100%;
+}
+
+.slick-prev:before, .slick-next:before {
+	color: black;
+}
+
+.slick-slide {
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+
+.slick-active {
+	opacity: .5;
+}
+
+.slick-current {
+	opacity: 1;
+}
+
+.shopby {
+	/*padding-left: 900px;*/
+}
+.popuptag {
+	background-color: black;
+	color: white;
+	text-align:center;
+
+	padding-top: 5px;
+	font-size:20px;
+}
+
+#brandNavigator {
+	width: 100%;
+	text-align: center;
+	background-color: white;
+}
+
+#brandNavigator img {
+	margin-top: -30px;
+	height: 130px;
+	padding-left: 20px;
+}
+
+#brandNavigator img:hover {
+	opacity: 1;
+}
+
+#banner {
+	width: 970px;
+	height: 490px;
+
+	margin: auto;
+	margin-bottom: 65px;
+}
+
+#banner > div {
+	display: inline-block;
+	width: 310px;
+	height: 100%;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#banner img {
+	height: 475px;
+	width: 310px;
+	margin-top: -41px;
+	float: left;
+}
+
+.tagBanner {
+	width: 300px;
+	float: left;
+	height: 30px;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+.shopnow {
+	padding: 8px;
+	height: 25px;
+	float: left;
+
+	position: relative;
+	top: 50%;
+	left: 38%;
+	background-color: #333;
+	color: white;
+	visibility: hidden;
+}
+
+#text{
+	font-size:14px;
+	font-weight:300;
+	padding-bottom:5px;
+	color:orange;
+}
+
+#banner > div:hover .shopnow {
+	visibility: visible;
+}
+
+.storages a > img:hover {
+	opacity: 0.9;
+}
+
+#brands p {
+	background-color: white;
+	margin-top: 15px;
+	margin-bottom: 5px
+}
+
+@media (max-width: 764px) {
+	#text{
+		font-size:12px;
+	}
+
+	.popuptag{
+		font-size:14px;
+
+	}
+}
+@media(max-width:700px){
+    div.sale {
+        padding: 5px;
+        font-size: 15px;
+    }
+    div.flash_sale {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    div.comingsoon {
+        padding: 5px;
+        width: 50px;
+        font-size: 15px;
+    }
+
+    div.new {
+        padding: 5px;
+        width: 50px;
+        font-size: 15px;
+    }
+}
+div.new {
+    padding: 5px;
+		text-align:center;
+    font-size: 16px;
+    background-color:#6dbf67;
+    color: white;
+    position: absolute;
+		z-index:10;
+}
+div.sale {
+    padding: 5px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    position: absolute;
+		z-index:10;
+}
+div.comingsoon {
+    padding: 5px;
+    width: 100px;
+    font-size: 16px;
+    background-color: orange;
+    color: red;
+    color: white;
+    position: absolute;
+    text-align: center;
+		z-index:10;
+}
