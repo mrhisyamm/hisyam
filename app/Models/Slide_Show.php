@@ -9,7 +9,7 @@ class Slide_Show extends Model
 {
     use SoftDeletes;
 
-    protected $table = "Slide_Show";
+    protected $table = "slide_show";
 
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';

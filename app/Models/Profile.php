@@ -9,7 +9,7 @@ class Profile extends Model
 {
     use SoftDeletes;
 
-    protected $table = "Profile";
+    protected $table = "profile";
 
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
