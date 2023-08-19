@@ -206,5 +206,5 @@ Route::get('/slide_show', [App\Http\Controllers\User\Slide_ShowController::class
 //Route::get('/kategori_barang', [App\Http\Controllers\User\Kategori_BarangController::class,'index'])->name('user.kategori_barang.index');
 Route::get('/profile', [App\Http\Controllers\User\ProfileController::class,'index'])->name('user.profile.index');
 
-Route::get('about',[App\Http\Controllers\AboutController::class,'index'])->name('about.index');
+Route::get('about',[App\Http\Controllers\aboutcontroller::class,'index'])->name('about.index');
 
