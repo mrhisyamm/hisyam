@@ -1,4 +1,4 @@
-@extends('Layouts.user')
+@extends('layouts.user')
 @section('content')
 <link rel="stylesheet" type="text/css" href="{{ asset ('./css/zoomimage.css')}}">
 <div class="container">
